@@ -7,7 +7,7 @@ Projeto focado na funcionalidade do *carrinho de compras*. Desenvolvido com Cypr
 
 ## Configurando o ambiente de testes
 
-- Sistema Operaicional ultilizado: Windows 11 Pro
+- Sistema Operaicional usado: Windows 11 Pro
 
 ### Pré-requisito
 Para exeutar este projeto, é necessário ter as seguintes ferramentas instaladas:
