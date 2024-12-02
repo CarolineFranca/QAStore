@@ -42,6 +42,10 @@ No diretório do projeto, execute:
 npm install
 ```
 3. **Instale a versão do Cypress (13.15.2) e confirme a versão**:
+
+```bash
+npm install cypress
+```
 ```bash
 npm install cypress@13.15.2 --save-dev
 ```
@@ -52,19 +56,10 @@ npx cypress --version
 
 ## Como usar
 
-### Primeira execução do Cypress
-
-Caso esteja executando pela primeira vez o Cypress na maquina, digite o seguinte código
-```bash
-npm run cy:firsttime
-```
-
-### Para usuários que já configuraram o Cypress
-
-Se o Cypress já foi configurado no seu ambiente, você pode iniciar a ferramenta com o comando abaixo:
+### Execução do Cypress com Interface
 
 ```bash
-npm run cy:open
+   npx cypress open
 ```
 
 ### Executando os testes
