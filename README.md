@@ -1,13 +1,15 @@
-# QA STORE Desafio - Loja Integrada
+# QA Store Desafio - Loja Integrada 
 
-### Projeto testes automatizados da QA STORE Desafio
+### Projeto de testes automatizados da QA STORE Desafio
 Projeto focado na funcionalidade do *carrinho de compras*. Desenvolvido com Cypress para garantir que os principais processos funcionem corretamente e tenha cobertura necessária.
 
-## Ambiente de testes
+<hr><br>
+
+## Configurando o ambiente de testes
 
 - Sistema Operaicional ultilizado: Windows 11 Pro
 
-## Pré-requisito
+### Pré-requisito
 Para exeutar este projeto, é necessário ter as seguintes ferramentas instaladas:
 
 - **Node.js**:  22.11.0
@@ -15,16 +17,21 @@ Para exeutar este projeto, é necessário ter as seguintes ferramentas instalada
 
 Certifique-se de que essas versões estão instaladas corretamente. Você pode verificar as versões com os seguintes comandos:
 
-1. ** Acessar cmd e digitar:** 
-    node -v 
+1. **Acessar cmd e digitar:**
+   ```bash
+    node -v
+   ```
+    ```bash
     npm -v
+    ```
+
 
 ## Instalação
 
 1. **Clone este repositório em sua maquina**:
 
 ```bash
-git clone https://github.com/seuusuario/nome-do-repositorio.git
+git clone https://github.com/CarolineFranca/QAStore.git
 ```
 
 2. **Instale as dependências e pacotes utilizando o NPM**:
@@ -35,9 +42,13 @@ No diretório do projeto, execute:
 npm install
 ```
 3. **Instale a versão do Cypress (13.15.2) e confirme a versão**:
-
+```bash
 npm install cypress@13.15.2 --save-dev
+```
+```bash
 npx cypress --version
+```
+
 
 ## Como usar
 
@@ -48,7 +59,7 @@ Caso esteja executando pela primeira vez o Cypress na maquina, digite o seguinte
 npm run cy:firsttime
 ```
 
-###Para usuários que já configuraram o Cypress
+### Para usuários que já configuraram o Cypress
 
 Se o Cypress já foi configurado no seu ambiente, você pode iniciar a ferramenta com o comando abaixo:
 
@@ -62,8 +73,7 @@ npm run cy:open
 2. Selecione seu navegador desejado. 
 3. Após selecionar o navegador, o Cypress deve abrir os testes disponíveis na aba de specs. Basta clicar no teste para executar.
 
-______________________________________________________________________________________________________________________________________
-
+<hr><br>
 
 ## Executando os Testes via Linha de Comando (sem Interface Gráfica)
 Caso prefira rodar os testes diretamente pelo terminal, sem a interface gráfica do Cypress, você pode utilizar os comandos abaixo.
@@ -80,10 +90,10 @@ npx cypress run
     Ao executar os testes, o Cypress gera automaticamente evidências e relatórios. Para visualizar os resultados:
 
     Evidências:
-    As capturas de tela e vídeos são salvos automaticamente nas pastas ***cypress/screenshots*** e ***cypress/videos***
+    As capturas de tela e vídeos são salvos automaticamente nas pastas **cypress/screenshots** e **cypress/videos**
 
     Relatório: 
-    Para visualizar o relatório detalhado da execução: ***cypress/reports*** e deve conter um arquivo ***index.html***
+    Para visualizar o relatório detalhado da execução: **cypress/reports** e deve conter um arquivo **index.html**
 
 
 
