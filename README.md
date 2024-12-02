@@ -1,4 +1,4 @@
-# QA Store Desafio - Loja Integrada 
+# QA Store Desafio 
 
 ### Projeto de testes automatizados da QA STORE Desafio
 Projeto focado na funcionalidade do *carrinho de compras*. Desenvolvido com Cypress para garantir que os principais processos funcionem corretamente e tenha cobertura necessária.
