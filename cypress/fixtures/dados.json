@@ -1,0 +1,13 @@
+[
+    {
+      "tipoCliente": "PF",
+      "email": "teste@automacao.com.br",
+      "senha": "testeautomacao"
+    },
+    {
+      "tipoCliente": "PJ",
+      "email": "testeautomacaopj@automacao.com.br",
+      "senha": "testeautomacaopj"
+    }
+  ]
+  

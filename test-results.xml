@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="223.262" tests="6" failures="4">
+  <testsuite name="Root Suite" timestamp="2024-12-02T15:51:51" tests="0" file="cypress\e2e\cupomdesconto.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Testes Cupom de Descontos" timestamp="2024-12-02T15:51:51" tests="6" time="223.232" failures="4">
+    <testcase name="Testes Cupom de Descontos CT001 - Validar que não é permitido aplicação de um cupom com desconto maior que o valor total do carrinho para um cliente tipo pessoa física" time="0.000" classname="CT001 - Validar que não é permitido aplicação de um cupom com desconto maior que o valor total do carrinho para um cliente tipo pessoa física">
+      <failure message="O valor do carrinho é menor do que o desconto aplicado, pois o sistema permite a aplicação do desconto mesmo em carrinhos com valor inferior. Valor apresentado em tela R$ 0.00" type="Error"><![CDATA[Error: O valor do carrinho é menor do que o desconto aplicado, pois o sistema permite a aplicação do desconto mesmo em carrinhos com valor inferior. Valor apresentado em tela R$ 0.00
+    at Context.eval (webpack://qastore_projeto/./cypress/support/pages/pageCart.page.js:287:34)]]></failure>
+    </testcase>
+    <testcase name="Testes Cupom de Descontos CT003 - Validar que não é permitido finalizar pedido com o carrinho zerado ao aplicar desconto maior que o valor do carrinho com pessoa fisica" time="0.000" classname="CT003 - Validar que não é permitido finalizar pedido com o carrinho zerado ao aplicar desconto maior que o valor do carrinho com pessoa fisica">
+      <failure message="Erro: Pedido não poderia ser gerado, pois o valor está zerado. Valor Total: R$ 0.00" type="Error"><![CDATA[Error: Erro: Pedido não poderia ser gerado, pois o valor está zerado. Valor Total: R$ 0.00
+    at Context.eval (webpack://qastore_projeto/./cypress/support/pages/pageCart.page.js:172:22)]]></failure>
+    </testcase>
+    <testcase name="Testes Cupom de Descontos CT005 - Validar cálculo do valor total do carrinho ao aplicar cupom de desconto percentual" time="21.729" classname="CT005 - Validar cálculo do valor total do carrinho ao aplicar cupom de desconto percentual">
+    </testcase>
+    <testcase name="Testes Cupom de Descontos CT006 - Validar que não é permitido utilizar um cupom expirado" time="15.906" classname="CT006 - Validar que não é permitido utilizar um cupom expirado">
+    </testcase>
+    <testcase name="Testes Cupom de Descontos CT008 - Efetuar compra com cupom aplicado estando logado" time="0.000" classname="CT008 - Efetuar compra com cupom aplicado estando logado">
+      <failure message="Erro: Mensagem ao tentar finalizar pedido, &quot;Não existem formas de pagamento configuradas na loja&quot;" type="Error"><![CDATA[Error: Erro: Mensagem ao tentar finalizar pedido, "Não existem formas de pagamento configuradas na loja"
+    at Context.eval (webpack://qastore_projeto/./cypress/support/pages/pageCart.page.js:189:30)]]></failure>
+    </testcase>
+    <testcase name="Testes Cupom de Descontos CT009 - Efetuar compra sem cupom aplicado estando logado" time="0.000" classname="CT009 - Efetuar compra sem cupom aplicado estando logado">
+      <failure message="Erro: Mensagem ao tentar finalizar pedido, &quot;Não existem formas de pagamento configuradas na loja&quot;" type="Error"><![CDATA[Error: Erro: Mensagem ao tentar finalizar pedido, "Não existem formas de pagamento configuradas na loja"
+    at Context.eval (webpack://qastore_projeto/./cypress/support/pages/pageCart.page.js:189:30)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
